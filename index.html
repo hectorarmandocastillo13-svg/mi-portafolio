@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Héctor Castillo — Portafolio</title>
+  <meta name="description" content="Portafolio de Héctor Castillo — Estudiante de Informática T-III (2025). Desarrollo web, sistemas de gestión académica y automatización.">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <!-- Icons (simple, from unpkg) -->
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ====== HEADER / NAVBAR ====== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Héctor Castillo</a>
+      <nav class="nav" id="navbar">
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#home" class="nav-link">Inicio</a></li>
+          <li><a href="#about" class="nav-link">Sobre mí</a></li>
+          <li><a href="#projects" class="nav-link">Proyectos</a></li>
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 class="hero-title">Héctor Castillo</h1>
+          <p class="hero-sub">Estudiante de Informática T-III (2025) — Desarrollo web • Sistemas de gestión académica • Automatización</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="assets/Hector_Castillo_CV.pdf" download>Descargar CV</a>
+            <a class="btn btn-outline" href="#projects">Ver proyectos</a>
+          </div>
+          <div class="hero-meta">
+            <span class="chip">Disponible para prácticas</span>
+            <span class="chip">Enfoque: automatización</span>
+          </div>
+        </div>
+
+        <div class="hero-card animate-appear">
+          <!-- placeholder image; reemplaza por /assets/img/profile.jpg si tienes -->
+          <img src="https://via.placeholder.com/320x320.png?text=Foto+Perfil" alt="Foto de perfil de Héctor Castillo" class="profile-img" width="320" height="320">
+          <div class="card-info">
+            <h3>Héctor Castillo</h3>
+            <p>Estudiante de Informática — Apasionado por transformar procesos con software libre.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SOBRE MÍ ====== -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-text animate-appear">
+            <p>
+              Soy <strong>Héctor Castillo</strong>, estudiante de Informática T-III (2025). Me especializo en desarrollo web,
+              sistemas de gestión académica y automatización de procesos usando tecnologías abiertas.
+              Me interesa construir interfaces limpias, APIs robustas y soluciones que faciliten el trabajo administrativo en instituciones educativas.
+            </p>
+            <p>
+              Actualmente desarrollo proyectos con HTML, CSS, JavaScript y frameworks/backends como Python y Django.
+              Trabajo con control de versiones (Git) y me enfoco en buenas prácticas, accesibilidad y rendimiento.
+            </p>
+            <a href="#contact" class="btn btn-primary">Contactarme</a>
+          </div>
+
+          <aside class="about-card animate-appear">
+            <h3>Datos</h3>
+            <ul class="info-list">
+              <li><strong>Nombre:</strong> Héctor Castillo</li>
+              <li><strong>Enfoque:</strong> Desarrollo web, automatización</li>
+              <li><strong>Ubicación:</strong> (Tu ciudad)</li>
+              <li><strong>Email:</strong> tu-email@ejemplo.com</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PROYECTOS ====== -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-sub">Selección de proyectos académicos y personales. Haz clic para ver en GitHub.</p>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card animate-appear">
+            <img src="https://via.placeholder.com/600x360.png?text=Proyecto+1" alt="Proyecto 1">
+            <div class="project-body">
+              <h3>SIGA - Sistema de gestión académico (maqueta)</h3>
+              <p>Plataforma para gestionar estudiantes, materias y notas. Autenticación por roles y panel para docentes y administradores.</p>
+              <div class="project-actions">
+                <a class="btn btn-outline small" href="https://github.com/usuario/proyecto-siga" target="_blank" rel="noopener">Ver en GitHub</a>
+                <a class="btn small" href="#">Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card animate-appear">
+            <img src="https://via.placeholder.com/600x360.png?text=Proyecto+2" alt="Proyecto 2">
+            <div class="project-body">
+              <h3>Editor CSV / Excel (Web)</h3>
+              <p>Aplicación web para cargar, editar y sincronizar archivos CSV/XLSX con paginación y búsqueda.</p>
+              <div class="project-actions">
+                <a class="btn btn-outline small" href="https://github.com/usuario/editor-csv" target="_blank" rel="noopener">Ver en GitHub</a>
+                <a class="btn small" href="#">Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card animate-appear">
+            <img src="https://via.placeholder.com/600x360.png?text=Proyecto+3" alt="Proyecto 3">
+            <div class="project-body">
+              <h3>Automatización de reportes</h3>
+              <p>Scripts y pipeline para generar reportes automatizados en PDF desde datos académicos.</p>
+              <div class="project-actions">
+                <a class="btn btn-outline small" href="https://github.com/usuario/reportes-auto" target="_blank" rel="noopener">Ver en GitHub</a>
+                <a class="btn small" href="#">Documentación</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== HABILIDADES ====== -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <p class="section-sub">Lenguajes, frameworks y herramientas</p>
+
+        <div class="skills-grid">
+          <div class="skill-item animate-appear">
+            <div class="skill-icon">HTML</div>
+            <div class="skill-meta">
+              <h4>HTML</h4>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="95"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item animate-appear">
+            <div class="skill-icon">CSS</div>
+            <div class="skill-meta">
+              <h4>CSS</h4>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="90"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item animate-appear">
+            <div class="skill-icon">JS</div>
+            <div class="skill-meta">
+              <h4>JavaScript</h4>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="85"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item animate-appear">
+            <div class="skill-icon">Py</div>
+            <div class="skill-meta">
+              <h4>Python & Django</h4>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="80"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item animate-appear">
+            <div class="skill-icon">DB</div>
+            <div class="skill-meta">
+              <h4>SQL</h4>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="75"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item animate-appear">
+            <div class="skill-icon">Git</div>
+            <div class="skill-meta">
+              <h4>Git / GitHub</h4>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="85"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTACTO ====== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-sub">¿Tienes un proyecto o propuesta? Escríbeme.</p>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" required minlength="2" placeholder="Tu nombre">
+            </div>
+
+            <div class="form-row">
+              <label for="email">Correo</label>
+              <input type="email" id="email" name="email" required placeholder="tu-email@ejemplo.com">
+            </div>
+
+            <div class="form-row">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="6" required minlength="10" placeholder="Cuéntame sobre tu proyecto..."></textarea>
+            </div>
+
+            <div class="form-row form-actions">
+              <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+              <button type="reset" class="btn btn-outline">Limpiar</button>
+            </div>
+
+            <div id="formMessage" class="form-message" aria-live="polite"></div>
+          </form>
+
+          <aside class="contact-info animate-appear">
+            <h3>Información</h3>
+            <p><strong>Email:</strong> tu-email@ejemplo.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">github.com/tu-usuario</a></p>
+            <p><strong>Redes:</strong> LinkedIn / Twitter / (añade tus perfiles)</p>
+            <div class="socials">
+              <a href="https://github.com/tu-usuario" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> Héctor Castillo — Todos los derechos reservados.</p>
+      <nav class="footer-nav">
+        <a href="#home">Inicio</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
